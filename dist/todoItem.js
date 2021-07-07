@@ -2,10 +2,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.TodoItem = void 0;
 class TodoItem {
-    constructor(id, task, completel) {
+    constructor(id, task, complete) {
         this.id = id;
         this.task = task;
-        this.complete = completel;
+        this.complete = complete;
     }
     printDetail() {
         console.log(`${this.id} \t ${this.task} \t ${this.complete}`);
