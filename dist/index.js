@@ -6,4 +6,5 @@ let col1 = new itemCollection_1.ItemCollection();
 col1.addTodo("Namaz");
 col1.addTodo("Dahe");
 col1.addTodo("Burger");
+col1.taskDone(2);
 col1.printDetail();

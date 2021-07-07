@@ -18,4 +18,9 @@ export class ItemCollection {
             items.printDetail();
         })
     }
+
+    taskDone(taskId: number) {
+        let item: TodoItem = this.item.find((item) => item.id === taskId);
+        item.complete = true;
+    }
 }
