@@ -1,9 +1,12 @@
+import { ItemCollection } from "./itemCollection";
 import { TodoItem } from "./todoItem";
 
 console.clear();
 
-let todo1: TodoItem = new TodoItem(1,"some",false);
-let todo2: TodoItem = new TodoItem(2,"soup",false);
+let col1: ItemCollection = new ItemCollection();
 
-todo1.printDetail();
-todo2.printDetail();
+col1.addTodo("Namaz");
+col1.addTodo("Dahe");
+col1.addTodo("Burger");
+
+col1.printDetail();
